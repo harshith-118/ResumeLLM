@@ -30,3 +30,17 @@ Make sure you have Python 3.x installed on your machine.
    ```bash
    git clone https://github.com/harshith-118/ResumeLLM.git
    cd ResumeLLM
+2.	**Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Set up environment variables**:
+     - Create a .env file in the root directory.
+     - Add the following:
+   ```bash
+   GOOGLE_API_KEY=your_google_api_key
+   ```
+4. **Run the application**:
+   ```bash
+   streamlit run app.py
+   ```
